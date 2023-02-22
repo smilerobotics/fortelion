@@ -1,0 +1,16 @@
+[package]
+name = "fortelion"
+version = "0.1.0"
+edition = "2021"
+authors = ["Akihiko Miyadera <miyadera@smilerobotics.com>"]
+description = "Serial driver for murata forterion battery module"
+license = "Apache-2.0"
+keywords = ["battery", "robotics"]
+categories = ["hardware-support"]
+repository = "https://github.com/smilerobotics/fortelion"
+
+[dependencies]
+serialport = "4.2"
+strum = { version = "0.24", features = ["derive"] }
+thiserror = "1.0"
+serde = { version = "1", features = ["derive"] }
