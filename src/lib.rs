@@ -9,5 +9,5 @@ mod utils;
 
 pub use battery_state::BatteryState;
 pub use error::{Error, Result};
-pub use fail_status::{FailStatus, FailStatusItem};
+pub use fail_status::{FailStatus, FailStatusItem, FailState};
 
