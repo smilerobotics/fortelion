@@ -1,6 +1,6 @@
 [package]
 name = "fortelion"
-version = "0.1.1"
+version = "0.1.2"
 edition = "2021"
 authors = ["Akihiko Miyadera <miyadera@smilerobotics.com>"]
 description = "Serial driver for murata forterion battery module"
