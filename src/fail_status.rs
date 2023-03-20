@@ -10,9 +10,9 @@ pub enum FailState {
     Unknown,
 }
 
-pub struct FailStatus1(pub(crate) u8);
-pub struct FailStatus2(pub(crate) u8);
-pub struct FailStatus3(pub(crate) u8);
+pub struct FailStatus1(pub u8);
+pub struct FailStatus2(pub u8);
+pub struct FailStatus3(pub u8);
 
 const FAIL_STATUS_1_OVER_CURRENT_DISCHARGE_DETECTION_65A_BIT: usize = 0;
 const FAIL_STATUS_1_OVER_CURRENT_DISCHARGE_DETECTION_90A_BIT: usize = 1;
