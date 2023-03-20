@@ -1,5 +1,8 @@
 # FORTELION
 
+[![fortelion at crates.io](https://img.shields.io/crates/v/fortelion.svg)](https://crates.io/crates/fortelion)
+[![fortelion at docs.rs](https://docs.rs/fortelion/badge.svg)](https://docs.rs/fortelion)
+
 FORTELION is a battery module manufactured by Murata Manufacturing Co., Ltd.
 cf. [Product website](https://www.murata.com/ja-jp/products/batteries/stbm)
 
